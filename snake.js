@@ -166,7 +166,7 @@ function checkGameOver(){
 }
 function displayGameOver(){
     // The barker that we use to draw the text on the canvas I select black
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "#FF4D4D";
     // How the text should look on the board I chose to be bold italic and font size 50px font Arial
     ctx.font ="bold italic 50px Arial";
     // The text should appear on the center of the board due to that the textAlign and textBaseline should be  center
